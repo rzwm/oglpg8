@@ -1,10 +1,6 @@
 ﻿#include "LoadShaders.h"
 #include <iostream>
 
-#ifdef __cplusplus
-extern "C" {
-#endif // __cplusplus
-
 const GLchar* readShader(const char* filename)
 {
 	FILE* file = nullptr;
@@ -121,7 +117,3 @@ GLuint loadShaders(ShaderInfo* shaders)
 
 	return program;
 }
-
-#ifdef __cplusplus
-}
-#endif // __cplusplus
