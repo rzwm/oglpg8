@@ -150,6 +150,10 @@
   <ItemGroup>
     <ClCompile Include="PointSize.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PointSize.fs" />
+    <None Include="PointSize.vs" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
