@@ -1,4 +1,9 @@
-﻿#include "GL/glew.h"
+﻿///////////////////////////////////////////////
+// 简介：
+//		练习使用不同的绘制命令。
+//
+///////////////////////////////////////////////
+#include "GL/glew.h"
 #include "GL/freeglut.h"
 #include <iostream>
 #include "LoadShaders.h"
