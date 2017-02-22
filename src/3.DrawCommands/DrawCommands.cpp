@@ -24,7 +24,7 @@ void display()
 
 	if (g_program != 0)
 	{
-		mat4 projection_matrix(frustum(-1.0f, 1.0f, -g_aspect, g_aspect, 1.0f, 500.0f));
+		mat4 projection_matrix(frustum(-1.0f, 1.0f, -1 / g_aspect, 1 / g_aspect, 1.0f, 500.0f));
 		glUniformMatrix4fv(g_projection_matrix_loc, 1, GL_FALSE, projection_matrix);
 		
 		mat4 model_matrix;

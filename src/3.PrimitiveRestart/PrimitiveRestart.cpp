@@ -32,7 +32,7 @@ void display()
 	if (g_program != 0)
 	{
 		vmath::mat4 model_matrix(vmath::translate(0.0f, 0.0f, -5.0f) * vmath::rotate(t * 360.f, Y) * vmath::rotate(t * 720.f, Z));
-		vmath::mat4 projection_matrix(vmath::frustum(-1.0f, 1.0f, -g_aspect, g_aspect, 1.0f, 500.f));
+		vmath::mat4 projection_matrix(vmath::frustum(-1.0f, 1.0f, -1 / g_aspect, 1 / g_aspect, 1.0f, 500.f));
 
 		glUniformMatrix4fv(g_render_model_matrix_loc, 1, GL_FALSE, model_matrix);
 		glUniformMatrix4fv(g_render_projection_matrix_loc, 1, GL_FALSE, projection_matrix);
