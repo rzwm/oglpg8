@@ -26,6 +26,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.StaticVertexAttrib", "src
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.DrawCommands", "src\3.DrawCommands\3.DrawCommands.vcxproj", "{C4FEF5AD-0696-4E71-818F-F7A785323D9E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.PrimitiveRestart", "src\3.PrimitiveRestart\3.PrimitiveRestart.vcxproj", "{0B14918D-03F1-4741-B85C-1553B49C12AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -114,6 +116,14 @@ Global
 		{C4FEF5AD-0696-4E71-818F-F7A785323D9E}.Release|x64.Build.0 = Release|x64
 		{C4FEF5AD-0696-4E71-818F-F7A785323D9E}.Release|x86.ActiveCfg = Release|Win32
 		{C4FEF5AD-0696-4E71-818F-F7A785323D9E}.Release|x86.Build.0 = Release|Win32
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Debug|x64.ActiveCfg = Debug|x64
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Debug|x64.Build.0 = Debug|x64
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Debug|x86.Build.0 = Debug|Win32
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Release|x64.ActiveCfg = Release|x64
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Release|x64.Build.0 = Release|x64
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Release|x86.ActiveCfg = Release|Win32
+		{0B14918D-03F1-4741-B85C-1553B49C12AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
